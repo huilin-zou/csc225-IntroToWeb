@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>task 3</title>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <p>
+          <label for="firstName"> First Name*: </label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="Your first name"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="lastName"> Last Name*: </label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Your last name"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="emailAddress"> Email Address*:</label>
+          <input
+            type="email"
+            id="emailAddress"
+            name="emailAddress"
+            placeholder="Your email address"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="password">Password Input*:</label>
+          <input type="password" id="password" name="password" required />
+        </p>
+
+        <p>
+          <label for="repeatPassword">Repeat Password*:</label>
+          <input
+            type="password"
+            id="repeatPassword"
+            name="repeatPassword"
+            required
+          />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Profile Information</legend>
+        <p>
+          <label id="gradeLevel">Grade level</label>
+
+          <input type="radio" name="freshMan" id="freshMan" />
+          <label for="freshMan">Fresh man</label>
+
+          <input type="radio" name="sophomore" id="sophomore" />
+          <label for="sophomore">Sophomore</label>
+
+          <input type="radio" name="junior" id="junior" />
+          <label for="junior">Junior</label>
+
+          <input type="radio" name="senior" id="senior" />
+          <label for="senior">Senior</label>
+
+          <input type="radio" name="graduate" id="graduate" />
+          <label for="graduate">Graduate</label>
+        </p>
+
+        <p>
+          <label for="favMusicGenre"
+            >Favorite Genre of Music (You can select multiple hold
+            command/control + shift and click) *:</label
+          >
+          <select id="favMusicGenre" name="favMusicGenre" required>
+            <option value="">-- Select --</option>
+            <option value="rock">Rock</option>
+            <option value="hipHop">Hip Hop</option>
+            <option value="EDM">EDM</option>
+            <option value="Classical">Classical</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="fav-member"
+            >Favorite member of Wu Tang Clan (required):</label
+          >
+          <select id="fav-member" name="fav-member" required>
+            <option value="">-- Select --</option>
+            <option value="RzA">RzA</option>
+            <option value="GzA">GzA</option>
+            <option value="Ol-Dirty">Ol’ Dirty</option>
+            <option value="Inspectah-Deck">Inspectah Deck</option>
+            <option value="Raekwon">Raekwon</option>
+            <option value="U-god">U-god</option>
+            <option value="Ghostface-Killah">Ghostface Killah</option>
+            <option value="method-man">Method Man</option>
+          </select>
+        </p>
+
+        <p>
+          <input type="checkbox" name="spamEmail" id="spamEmail" />
+          <label for="spamEmail"
+            >Sign me up for spam emails, because I don’t get enough junk
+            email!</label
+          >
+        </p>
+      </fieldset>
+      <p>
+        * Required
+        <input type="submit" />
+      </p>
+    </form>
+  </body>
+</html>
