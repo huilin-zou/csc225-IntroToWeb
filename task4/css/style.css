@@ -1,0 +1,34 @@
+p {
+  color: #555;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav a {
+  color: #880808;
+}
+
+article h1 + p {
+  text-decoration: underline;
+}
+
+.am {
+  text-decoration: underline;
+}
+
+span{
+    font-style: italic;
+}
+
+footer li:first-child{
+    list-style: none;
+}
+footer li:last-child{
+    font-weight: bold;
+}
+
+.header ul,li{
+   display: inline-block;
+}
