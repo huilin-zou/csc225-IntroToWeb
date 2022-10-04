@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+}
+
+.back-to-top{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
